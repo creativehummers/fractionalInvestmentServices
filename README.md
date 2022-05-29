@@ -6,6 +6,7 @@ To try out this project:
 
 1. Install FastAPI:
     https://fastapi.tiangolo.com/
+    
     The uvicorn after pip install works with:
      >python3 -m uvicorn main:app --reload
 
