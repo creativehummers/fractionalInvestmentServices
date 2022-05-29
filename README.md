@@ -1,4 +1,4 @@
-# fractionalInvestmentServices
+#FractionalInvestmentServices
 Fractional Investment Services Platform
 https://skrishnamachari.wordpress.com/2022/05/25/fractional-investment-services/
 
