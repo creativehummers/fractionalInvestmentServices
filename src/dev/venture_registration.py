@@ -12,7 +12,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    	return {"Hello": "World"}
+    	return {"msg": "Hello Fractional Investment Service"}
 
 class Venture(BaseModel):
     	name: str
