@@ -1,0 +1,551 @@
+
+https://www.propertyshare.in/faqs
+	https://www.cbinsights.com/company/property-share/financials
+		2MM  USD
+https://compstak.com/data-api
+https://myrecapital.com/
+	https://www.crunchbase.com/organization/myre-capital/investor_financials
+		5B USD valuation ??
+https://bhive.fund/fractional-real-estate
+	https://www.cbinsights.com/company/bhive-workspace/financials
+		3.5 MM USD funding
+https://strataprop.com/
+	https://www.crunchbase.com/organization/strata-f0fe
+		7.5MM USD funding
+		
+
+Venture / Enterprise API Attributes Example:
+
+https://datagardener.com/api-docs#tag/Companies
+https://api.globaldatabase.com/docs/v2/#company-details
+
+1.  Summarized / Skeletal:
+{
+  "businessName": "string",
+  "companyRegistrationNumber": "string",
+  "regAddress": {
+    "addressLine1": "string",
+    "addressLine2": "string",
+    "addressLine3": "string",
+    "addressLine4": "string",
+    "country": "string",
+    "county": "string",
+    "ctps": "string",
+    "districtCode": "string",
+    "europeanElectoralRegionName": "string",
+    "localAuthorityName": "string",
+    "parliamentConstituencyName": "string",
+    "postalCode": "string",
+    "primaryTrustName": "string",
+    "regCareOfAddress": "string",
+    "regOfficeAreaCode": "string",
+    "regPOBox": "string",
+    "region": "string",
+    "telephone": "string",
+    "wardName": "string",
+    "website": "string"
+  }
+}
+
+2. Intermediate:
+
+{
+    "id": 17937983,
+    "name": "TESCO PLC",
+    "registration_number": "00445790",
+    "country_code": "GB",
+    "company_phone": [
+        "+441992632222"
+    ],
+    "company_email": [],
+    "company_fax": [],
+    "company_website": "http://www.tesco.com",
+    "company_legal_form": "Public Limited Company",
+    "brands": "TESCO PLC, TESCO STORES (HOLDINGS) PUBLIC LIMITED COMPANY",
+    "address_street": "TESCO HOUSE SHIRE PARK",
+    "address_location": "KESTREL WAY",
+    "address_city": "WELWYN GARDEN CITY",
+    "country_region": null,
+    "zip_code": "AL7 1GA",
+    "country_name": "United Kingdom",
+    "size": "10001",
+    "vat_number": null,
+    "founding_date": "1947-11-27",
+    "industry": [
+        {
+            "id": 4592033,
+            "type": "industry_focus",
+            "value": "Retail"
+        },
+        {
+            "id": 4563309,
+            "type": "industry_focus",
+            "value": "Fair trade products"
+        },
+        {
+            "id": 4563294,
+            "type": "industry_focus",
+            "value": "Retail"
+        }
+    ],
+    "sic": [
+        {
+            "id": 3969852,
+            "type": "sic_code_gb",
+            "value": "47110 - Retail sale in non-specialised stores with food, beverages or tobacco predominating"
+        }
+    ],
+    "twitter": "twitter.com/tesco",
+    "linkedin": "linkedin.com/company/-tesco",
+    "facebook": "facebook.com/tesco"
+}
+
+3.  Detailed: 
+
+{
+  "accountsDueDate": "dd/MM/yyyy",
+  "accountsFilingDate": "dd/MM/yyyy",
+  "accountsMadeUpDate": "dd/MM/yyyy",
+  "accountsReferenceDate": "dd/MM/yyyy",
+  "accountsType": "string",
+  "activeDirectorsCount": 0,
+  "administrationOrderFlag": "string",
+  "avgCEUpdated": 0,
+  "avgPBT": 0,
+  "businessAlphaName": "string",
+  "businessName": "string",
+  "ccjcount": 0,
+  "chargesCount": 0,
+  "charityNumber": "string",
+  "companyAge": 0,
+  "companyCommentary": [
+    {
+      "commentaryCode": "string",
+      "commentaryImpact": "string",
+      "commentaryPriority": "string",
+      "commentaryText": "string",
+      "companyRegistrationNumber": "string",
+      "dateLogged": "dd/MM/yyyy"
+    }
+  ],
+  "companyLiquidationStatus": "string",
+  "companyRegistrationDate": "dd/MM/yyyy",
+  "companyRegistrationNumber": "string",
+  "companyStatus": "string",
+  "companyType": "string",
+  "contactDetails": {
+    "addressLine1": "string",
+    "addressLine2": "string",
+    "addressLine3": "string",
+    "addressLine4": "string",
+    "ctps": "string",
+    "postalCode": "string",
+    "regCareOfAddress": "string",
+    "regOfficeAreaCode": "string",
+    "regPOBox": "string",
+    "telephone": "string",
+    "website": "string"
+  },
+  "directorsData": [
+    {
+      "appointment": "string",
+      "detailedInformation": {
+        "birthDate": "dd/MM/yyyy",
+        "country": "string",
+        "directorAge": "string",
+        "forename": "string",
+        "fullName": "string",
+        "middleName": "string",
+        "nationality": "string",
+        "nationalityName": "string",
+        "postalCode": "string",
+        "surname": "string"
+      },
+      "directorPnr": 0,
+      "fromDate": "dd/MM/yyyy",
+      "hasPersonalDecisionMaker": true,
+      "hasPersonalEmailPattern": true,
+      "hasPersonalFacebookUrl": true,
+      "hasPersonalGenericMail": true,
+      "hasPersonalLinkedinUrl": true,
+      "hasPersonalTwitterUrl": true,
+      "position": "string",
+      "serviceAddress": {
+        "addressLine1": "string",
+        "addressLine2": "string",
+        "addressLine3": "string",
+        "addressLine4": "string",
+        "addressLine5": "string",
+        "postalCode": "string",
+        "regCareOfAddress": "string",
+        "regPOBox": "string"
+      },
+      "toDate": "dd/MM/yyyy"
+    }
+  ],
+  "documents": {
+    "filingHistoryStatus": "string",
+    "items": [
+      {
+        "category": "string",
+        "date": "dd/MM/yyyy",
+        "description": "string",
+        "description_values": {
+          "appointment_date": "dd/MM/yyyy",
+          "description": "string",
+          "officer_name": "string",
+          "termination_date": "dd/MM/yyyy"
+        },
+        "links": {
+          "document_metadata": "dd/MM/yyyy",
+          "self": "string"
+        },
+        "paper_filed": "string",
+        "resolutions": [
+          {
+            "barCode": "string",
+            "category": "string",
+            "description": "string",
+            "description_values": {
+              "appointment_date": "dd/MM/yyyy",
+              "description": "string",
+              "officer_name": "string",
+              "termination_date": "dd/MM/yyyy"
+            },
+            "subCategory": "string",
+            "transactionId": "string",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "itemsPerPage": "string",
+    "startIndex": "string",
+    "totalCount": 0
+  },
+  "financialRatios": [
+    {
+      "companyRegistrationNumber": "string",
+      "creditorDays": "string",
+      "currentDebtRatio": "string",
+      "currentRatio": "string",
+      "debtorDays": "string",
+      "equityInPercentage": "string",
+      "gearingPercentage": "string",
+      "liquidityPerAcidTest": "string",
+      "preTaxProfitPercentage": "string",
+      "returnNetAssetsEmployedPercentage": "string",
+      "returnOnCapitalEmployedPercentage": "string",
+      "returnOnTotalAssetsEmployedPercentage": "string",
+      "salesPerNetworkingCapital": "string",
+      "stockTurnoverRatio": "string",
+      "totalDebtRatio": "string",
+      "yearEndDate": "dd/MM/yyyy",
+      "yearStartDate": "dd/MM/yyyy"
+    }
+  ],
+  "ftsea": "string",
+  "ftset": "string",
+  "hasAcquiredCompany": true,
+  "hasAcquiringCompany": true,
+  "hasCCJInfo": true,
+  "hasCharges": true,
+  "hasCompanyCommentary": true,
+  "hasContactInfo": true,
+  "hasContactNumber": true,
+  "hasFinances": true,
+  "hasGroupStructure": true,
+  "hasLandCorporate": true,
+  "hasPossibleCCJInfo": true,
+  "hasSafeAlerts": true,
+  "hasShareHolders": true,
+  "hasTradingAddress": true,
+  "hasWebsite": true,
+  "inAdministrationFlag": "string",
+  "industries": {
+    "sicIndustry1": "string",
+    "sicText1": "string"
+  },
+  "latestAnnualReturnDate": "dd/MM/yyyy",
+  "latestDateOfAccounts": "dd/MM/yyyy",
+  "mortgages": [
+    {
+      "chargeCode": "string",
+      "createdDate": "dd/MM/yyyy",
+      "lastChangeDate": "dd/MM/yyyy",
+      "memorandumNature": "string",
+      "mortgageDetails": [
+        {
+          "chargeCode": "string",
+          "description": "string",
+          "mortgageNumber": 0,
+          "recordId": "string",
+          "recordType": "string",
+          "seqNumber": 0
+        }
+      ],
+      "mortgageNumber": 0,
+      "regDate": "dd/MM/yyyy",
+      "satisfiedDate": "dd/MM/yyyy"
+    }
+  ],
+  "nextAnnualReturnDate": "dd/MM/yyyy",
+  "outstandingCount": 0,
+  "partialSatisfiedCount": 0,
+  "previousNames": [
+    {
+      "dateChanged": "dd/MM/yyyy",
+      "name": "string"
+    }
+  ],
+  "primarySicCode03": {
+    "code": "string",
+    "description": "string"
+  },
+  "primarySicCode07": {
+    "code": "string",
+    "description": "string"
+  },
+  "principalActivityDetails": [
+    {
+      "description": "string"
+    }
+  ],
+  "receiveManagerFlag": "string",
+  "regAddress": {
+    "addressLine1": "string",
+    "addressLine2": "string",
+    "addressLine3": "string",
+    "addressLine4": "string",
+    "country": "string",
+    "county": "string",
+    "ctps": "string",
+    "districtCode": "string",
+    "europeanElectoralRegionName": "string",
+    "localAuthorityName": "string",
+    "parliamentConstituencyName": "string",
+    "postalCode": "string",
+    "primaryTrustName": "string",
+    "regCareOfAddress": "string",
+    "regOfficeAreaCode": "string",
+    "regPOBox": "string",
+    "region": "string",
+    "telephone": "string",
+    "wardName": "string",
+    "website": "string"
+  },
+  "resignedDirectorsCount": 0,
+  "roe": 0,
+  "roePercent": 0,
+  "satisfiedCount": 0,
+  "shareDetails": [
+    {
+      "companyRegistrationNumber": "string",
+      "currency": "string",
+      "numberOfSharesIssued": 0,
+      "shareClasses": "string",
+      "shareType": "string",
+      "shareholderPNRNumber": "string",
+      "shareholdersDetails": {
+        "shareholderAddress1": "string",
+        "shareholderAddress2": "string",
+        "shareholderAddress3": "string",
+        "shareholderAddress4": "string",
+        "shareholderAddress5": "string",
+        "shareholderForename": "string",
+        "shareholderPostcode": "string",
+        "shareholderSurname": "string",
+        "shareholderTitle": "string"
+      },
+      "value": 0
+    }
+  ],
+  "sicCode07": {
+    "SicCode7": "string",
+    "sicCode7": "string",
+    "sicText1": "string"
+  },
+  "sicCode2": {
+    "sicNumber1": "string",
+    "sicText1": "string"
+  },
+  "sicCode3": {
+    "sicNumber1": 0,
+    "sicText1": "string"
+  },
+  "sicCode4": {
+    "sicNumber1": 0,
+    "sicText1": "string"
+  },
+  "statutoryAccounts": [
+    {
+      "accountStatus": "string",
+      "accountType": "string",
+      "auditFees": 0,
+      "bankBorrowingsCurrent": 0,
+      "bankOverdraftAndLTL": 0,
+      "capitalEmployed": 0,
+      "cash": 0,
+      "companyRegistrationNumber": "string",
+      "consolidatedAccount": "string",
+      "contingentLiabilities": 0,
+      "costOfSales": 0,
+      "currency": "string",
+      "depreciation": 0,
+      "directorsRemuneration": 0,
+      "dividends": 0,
+      "export": 0,
+      "grossProfit": 0,
+      "increaseInCash": 0,
+      "intangibleAssets": 0,
+      "interestExpense": 0,
+      "issuedShareCapital": 0,
+      "miscCurrentAssets": 0,
+      "miscCurrentLiabilities": 0,
+      "netAssets": 0,
+      "netCashFlowBeforeFinancing": 0,
+      "netCashFlowFromFinancing": 0,
+      "netCashFlowFromOperations": 0,
+      "netWorth": 0,
+      "numberOfEmployees": 0,
+      "numberOfMonths": "string",
+      "numberOfWeeks": "string",
+      "operatingProfit": 0,
+      "otherCurrentAssets": 0,
+      "otherLongTermFinance": 0,
+      "otherReserves": 0,
+      "otherShortTermFinance": 0,
+      "profitAfterTax": 0,
+      "profitBeforeTax": 0,
+      "retainedProfit": 0,
+      "revaluationReserve": 0,
+      "revenueReserves": 0,
+      "stock": 0,
+      "tangibleAssets": 0,
+      "taxation": 0,
+      "totalAssets": 0,
+      "totalCurrentAssets": 0,
+      "totalCurrentLiabilities": 0,
+      "totalFixedAssets": 0,
+      "totalLiabilities": 0,
+      "totalLongTermLiabilities": 0,
+      "totalShareholdersEquity": 0,
+      "tradeCreditors": 0,
+      "tradeDebtors": 0,
+      "turnover": 0,
+      "wagesAndSalaries": 0,
+      "workingCapital": 0,
+      "yearEndDate": "dd/MM/yyyy",
+      "yearStartDate": "dd/MM/yyyy"
+    }
+  ],
+  "totalDirectorsCount": 0,
+  "voScoreUpdated": 0,
+  "voluntaryAgreementFlag": "string"
+}
+
+
+Venture / Enterprise financials:
+
+{
+    "2020": {
+        "Share-Capital": 535500,
+        "Pretax-Profit-Margin": 0.55,
+        "Bank-Overdraft-And-LTL": 1234603,
+        "Cash-To-Total-Assets": 22.59,
+        "Employee-Numbers-Yoy": -1,
+        "EBITDA": 305579,
+        "World-Turnover": 30705740,
+        "Revenue-Per-Employee": 310158.9898989899,
+        "Pre-Tax-Profit": 168377,
+        "Capital-Employed": 4533491,
+        "Human-Capital-Value-Added": 40796.79797979798,
+        "Stocks-And-Work-in-Progress": 2321893,
+        "Interest-Payable": 18160,
+        "Intangible-Assets": 0,
+        "P-And-L-Account-Reserve": 1739798,
+        "Cost-of-Sales": 25720263,
+        "Currency": "GBP",
+        "Turnover": 30705740,
+        "Total-Long-Term-Liabilities": 1184603,
+        "Employee-Numbers": 99,
+        "Other-Long-Term-Financing": 0,
+        "Total-Liabilities-Yoy": 47.55891242551835,
+        "Net-Assets": 3348888,
+        "Other-Short-Term-Loans": 0,
+        "Total-Current-Assets": 7329410,
+        "EBITDA-Margin": 1.0,
+        "Consolidated-Accounts": "N",
+        "Net-Debt-To-EBITDA-Ratio": -3.5359628770301623,
+        "Dividends-Payable": 250430,
+        "Other-Short-Term-Financing": 0,
+        "Return-On-Assets": 1.99,
+        "Total-Non-Current-HP-And-Lease-Commitments": 0,
+        "Liquidity-Ratio": 0.8434609219101853,
+        "Reporting-period": 13,
+        "Taxation": -50772,
+        "Miscellaneous-Current-Assets": 0,
+        "Shareholder-Funds": 3348888,
+        "Auditor-Fees": 43350,
+        "Days-Payable-Outstanding": 25.678956218293727,
+        "Gearing-Net-Debt-Basis": -32.26,
+        "Net-Cash-Flow-before-Financing": 0,
+        "Audit-Fees": 25000,
+        "Other-Audit-Costs": 18350,
+        "Turnover-Yoy": 14.205527131629847,
+        "Days-Inventory-Outstanding": 26.96832823987842,
+        "Miscellaneous-Current-Liabilities": 2041890,
+        "Gearing-Gross-Debt-Basis": 38.36,
+        "Interest-Receivable": 0,
+        "Wages-And-Salaries": 3852346,
+        "Days-Sales-Outstanding": 21.509643066736057,
+        "Current-Hire-Purchase-Commitments": 0,
+        "Cash": 2365119,
+        "Net-Margin": 0.38,
+        "Return-On-Equity": 3.51,
+        "Depreciation-of-Tangibles": 119042,
+        "Total-Fixed-Assets": 3140950,
+        "Profit-after-Tax": 117605,
+        "Profit-after-Tax-Yoy": -52.05490621343628,
+        "Debt-To-Capital": 68.02,
+        "Employee-Remuneration": 3416507,
+        "Exports-Yoy": 43.78552368091236,
+        "Contingent-Liability": 0,
+        "Gross-Margin": 16.24,
+        "Operating-Profit-Margin": 0.61,
+        "Net-Cashflow-before-Financing": 0,
+        "Net-Worth": 3348888,
+        "Bank-Overdraft": 50000,
+        "Sundry-Reserves": 170463,
+        "Directors-Remuneration": 590808,
+        "Cash-To-Turnover": 5.449435512708698,
+        "Revaluation-Reserve": 903127,
+        "EBITDA-Yoy": -6.058938540616316,
+        "Current-Ratio": 1.234558148411225,
+        "Amortisation-of-Intangibles": 0,
+        "Reported-Date": "2020-05-31",
+        "Return-On-Capital-Employed": 4.56,
+        "Tangible-Assets": 3140950,
+        "Interest-Coverage-Ratio": 10.271861233480177,
+        "Equity-Paid-Up": 535500,
+        "Inventory-Turnover-Ratio": 13.22444229772862,
+        "Cash-Conversion-Cycle": 22.79901508832075,
+        "Total-Liabilities": 7121472,
+        "Gearing-Liability-Basis": 212.65,
+        "Cash-To-Current-Liabilities-Ratio": 0.3983781686946436,
+        "Retained-Profit": -132825,
+        "Operating-Profit": 186537,
+        "Total-Long-Term-Loans": 950000,
+        "Trade-Debtors": 1594061,
+        "Bank-Loan": 50000,
+        "Total-Assets": 10470360,
+        "Trade-Creditors": 3844979,
+        "Total-Current-Liabilities": 5936869,
+        "Investment-And-Other": 0,
+        "Gross-Profit": 4985477,
+        "Working-Capital": 1392541
+    }
+}
+
+
+
