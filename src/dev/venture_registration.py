@@ -19,16 +19,6 @@ ventureMap["test2"]= 123;
 def read_root():
     	return {"msg": "Hello Fractional Investment Service"}
 
-class Venture(BaseModel):
-    	name: str
-    	typeOfVenture: str = None
-    	description: Union[ str, None] = None
-    	address_city: str = None
-    	country_region: str = None
-    	zip_code: str = None
-    	projects = []
-#"Default Venture Description"
-
 class Project(BaseModel):
 	venture_name: str
 	project_name: str
@@ -42,6 +32,16 @@ class Project(BaseModel):
 	project_financials: str = None
 	description: Union[ str, None ]= None
 #"Default Project Description"
+
+class Venture(BaseModel):
+	name: str
+	typeOfVenture: str = None 
+	description: Union[ str, None] = None
+	address_city: str = None
+	country_region: str = None
+	zip_code: str = None
+	projects = []
+#"Default Venture Description"
     	
 
 @app.get("/fractionalInvestmentService/venture/{venture_unique_name}")
